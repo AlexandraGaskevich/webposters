@@ -1,60 +1,105 @@
 @import "reset.css";
+@@import "fonts.css";
 
-.main {
-  background-color: black;
+
+.container {
   width: 320px;
+  background-color: black;
 }
 
-.main ul {
+.logo {
+display: block;
+float: left;
+
+font-family: Celestina, sans-serif;
+color: white;
+display: inline-block;
+font-size: 10px;
+}
+
+.menu {
+  background-color: black;
+  width: 100%;
+}
+
+.menu ul {
+  padding-top: 10px;
   position: relative;
-  color: white;
   font-size: 10px;
+  font-family: Century Gothic, sans-serif;
 
   display: flex;
   justify-content: space-between;
   flex-direction: row;
 
   padding-left: 20px;
-  padding-right: 20px
+  padding-right: 20px;
+}
+a {
+  color: white;
+  text-decoration: none;
 }
 
 .star {
   background-color: black;
   position: absolute;
-  width: 320px;
+  width: 320px;;
 }
 
 .info {
+  margin-top: -20px;
+  background-color: black;
   padding-top: 380px;
-  width: 300px;
   padding-left: 10px;
+  padding-right: 10px;
 }
 .info h1 {
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
+
+  font-family: Celestina, sans-serif;
+  color: white;
 }
 .info h2 {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 15px;
+
+  font-family: Century Gothic, sans-serif;
+  color: white;
+}
+.contain-info {
+  line-height: 2;
+  width: 93,75%;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  font-family: Century Gothic, sans-serif;
+  color: white;
+}
+.contain-info p {
+  font-size: 10px;
+}
+
+.contain-info ul {
+  padding-top: 15px;
   font-size: 15px;
   text-align: center;
-}
-.info p {
-  padding-top: 10px;
-  font-size: 10px;
-}
-.info ul {
-   font-size: 10px;
  }
 
-footer {
-  width: 280px;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.contain {
-  background-color: black;
-  position: relative;
-  text-align: center;
-  font-size: 10px;
-  color: white;
+ footer {
+   background-color: black;
+   width: 100%;
+   padding-top: 40px;
+   padding-bottom: 20px;
+
+   font-size: 10px;
+   font-family: Celestina, sans-serif;
+   color: white;
+   text-align: center;
+ }
+.lenta {
+  width: 320px;
+  height: 30px;
 }

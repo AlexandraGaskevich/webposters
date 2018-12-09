@@ -1,0 +1,9 @@
+@@font-face {
+  font-family: "Celestina";
+
+  src: url(.../fonts/celestina.otf) format("opentype");
+}
+@@font-face {
+  font-family: "Century Gothic";
+  src: url("../fonts/CenturyGothicRegular/CenturyGothicRegular.ttf") format("truetype");
+}
