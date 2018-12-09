@@ -1,0 +1,60 @@
+@import "reset.css";
+
+.main {
+  background-color: black;
+  width: 320px;
+}
+
+.main ul {
+  position: relative;
+  color: white;
+  font-size: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+  padding-left: 20px;
+  padding-right: 20px
+}
+
+.star {
+  background-color: black;
+  position: absolute;
+  width: 320px;
+}
+
+.info {
+  padding-top: 380px;
+  width: 300px;
+  padding-left: 10px;
+}
+.info h1 {
+  font-size: 30px;
+  text-align: center;
+}
+.info h2 {
+  font-size: 15px;
+  text-align: center;
+}
+.info p {
+  padding-top: 10px;
+  font-size: 10px;
+}
+.info ul {
+   font-size: 10px;
+ }
+
+footer {
+  width: 280px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.contain {
+  background-color: black;
+  position: relative;
+  text-align: center;
+  font-size: 10px;
+  color: white;
+}
