@@ -1,0 +1,142 @@
+@import "reset.css";
+@@import "fonts.css";
+
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.logo {
+display: block;
+float: left;
+
+font-family: Celestina, sans-serif;
+color: white;
+display: inline-block;
+font-size: 50px;
+}
+
+.menu {
+  margin-top: -40px;
+  background-color: black;
+  width: 100%;
+}
+
+.menu ul {
+  padding-top: 60px;
+  position: relative;
+  font-size: 50px;
+  font-family: Century Gothic, sans-serif;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.hover {
+  opacity: 0.5;
+}
+
+.hover:hover {
+  opacity: 1;
+}
+.star {
+  margin-top: -100px;
+  background-color: black;
+  position: absolute;
+  width: 1440px;
+}
+
+.info {
+  margin-top: -300px;
+  background-color: black;
+  padding-top: 1710px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.info h1 {
+  font-size: 100px;
+  text-align: center;
+
+  font-family: Celestina, sans-serif;
+  color: white;
+  padding-bottom: 25px;
+}
+.info h2 {
+  font-size: 55px;
+  text-align: center;
+  padding-top: 25px;
+
+  font-family: Century Gothic, sans-serif;
+  color: white;
+}
+
+.zvezda {
+  width; 70px;
+  height: 70px;
+  padding-top: 50px;
+  margin-left: 650px;
+}
+
+.contain-info {
+  display: grid;
+  grid-template-columns: 645px 50px 645px;
+  grid-template-rows: 480px;
+
+  padding-left: 50px;
+}
+.contain-info {
+  line-height: 2;
+  margin-top: 40px;
+
+  font-family: Century Gothic, sans-serif;
+  color: white;
+
+}
+.contain-info p {
+  width: 100%;;
+  font-size: 35px;
+}
+
+ul {
+  line-height: 2;
+  margin-top: 50px;
+  padding-top: 50px;
+  font-size: 45px;
+
+  font-family: Century Gothic, sans-serif;
+  color: white;
+  text-align: center;
+
+  padding-bottom: 50px;
+ }
+
+ footer {
+   background-color: black;
+   width: 100%;
+   padding-top: 60px;
+   padding-bottom: 40px;
+
+   font-size: 40px;
+   font-family: Celestina, sans-serif;
+   color: white;
+   text-align: center;
+ }
+.lenta {
+  width: 1440px;
+  height: 35px;
+}
+@media (max-width: 1440px) {
+  #sidebar {display: none;}
+}
