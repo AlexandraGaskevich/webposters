@@ -1,0 +1,9 @@
+@@font-face {
+  font-family: "Celestina";
+
+  src: url(.../fonts/Piñata - Celestina.otf) format("otf");
+}
+@@font-face {
+  font-family: "Century Gothic";
+  src: url("../fonts/GOTHIC.ttf") format("ttf");
+}
