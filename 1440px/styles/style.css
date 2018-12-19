@@ -1,42 +1,13 @@
 @import "reset.css";
-@@import "fonts.css";
+@import "fonts.css";
 
 
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-
-
-.logo {
-display: block;
-float: left;
-
-font-family: Celestina, sans-serif;
-color: white;
-display: inline-block;
-font-size: 50px;
-}
-
-.menu {
-  margin-top: -40px;
+body {
   background-color: black;
-  width: 100%;
-}
-
-.menu ul {
-  padding-top: 60px;
-  position: relative;
-  font-size: 50px;
-  font-family: Century Gothic, sans-serif;
-
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 a {
@@ -52,91 +23,161 @@ a {
   opacity: 1;
 }
 .star {
-  margin-top: -100px;
-  background-color: black;
-  position: absolute;
   width: 1440px;
 }
 
 .info {
-  margin-top: -300px;
-  background-color: black;
-  padding-top: 1710px;
+  margin-top: -190px;
+  position: relative; z-index: 1;
   padding-left: 10px;
   padding-right: 10px;
 }
 .info h1 {
-  font-size: 100px;
+  font-size: 85px;
   text-align: center;
 
-  font-family: Celestina, sans-serif;
+  font-family: Bubbleboddy Neue Regular, sans-serif;
   color: white;
-  padding-bottom: 25px;
 }
 .info h2 {
-  font-size: 55px;
+  font-size: 45px;
   text-align: center;
+  padding-top: 15px;
+
+  font-family: Bubbleboddy Neue Trial thin, sans-serif;
+  color: white;
+}
+.contain-info {
   padding-top: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
 
-  font-family: Century Gothic, sans-serif;
+  font-family: Bubbleboddy Neue Trial thin, sans-serif;
   color: white;
-}
-
-.zvezda {
-  width; 70px;
-  height: 70px;
-  padding-top: 50px;
-  margin-left: 650px;
-}
-
-.contain-info {
-  display: grid;
-  grid-template-columns: 645px 50px 645px;
-  grid-template-rows: 480px;
-
-  padding-left: 50px;
-}
-.contain-info {
-  line-height: 2;
-  margin-top: 40px;
-
-  font-family: Century Gothic, sans-serif;
-  color: white;
-
 }
 .contain-info p {
-  width: 100%;;
-  font-size: 35px;
+  font-size: 34.5px;
 }
 
-ul {
-  line-height: 2;
-  margin-top: 50px;
-  padding-top: 50px;
-  font-size: 45px;
-
-  font-family: Century Gothic, sans-serif;
-  color: white;
+.contain-info ul {
+  padding-top: 25px;
+  font-size: 34.5px;
   text-align: center;
 
-  padding-bottom: 50px;
  }
+ .contain-info li {
+   list-style-type: none;
+}
+.contain-info li::before {
+  content: "- ";
+}
+.goods {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 330px 330px 330px 330px;
+  grid-template-rows: 455px;
+  padding-left: 60px;
+}
 
+.red {
+  padding-left: 40px;
+  width: 250px;
+}
+
+.white {
+  padding-left: 40px;
+  width: 250px;
+}
+
+.yellow {
+  padding-left: 40px;
+  width: 250px;
+}
+
+.blue {
+  padding-left: 40px;
+  width: 250px;
+}
+
+.one {
+  position: relative; z-index: 2;
+}
+
+.two {
+  position: relative; z-index: 3;
+}
+
+.three {
+  position: relative; z-index: 4;
+}
+
+.four {
+  position: relative; z-index: 5;
+}
+
+.goods p {
+  font-family: Bubbleboddy Neue Trial thin, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 34.5px;
+}
+.goods p.hover {
+  padding-top: 10px;
+  font-size: 28px;
+}
  footer {
+   padding-top: 25px;
    background-color: black;
    width: 100%;
-   padding-top: 60px;
-   padding-bottom: 40px;
+   padding-bottom: 20px;
 
-   font-size: 40px;
-   font-family: Celestina, sans-serif;
+   font-family: Bubbleboddy Neue Regular, sans-serif;
    color: white;
    text-align: center;
  }
 .lenta {
-  width: 1440px;
-  height: 35px;
+  width: 1024px;
+  height: 15px;
 }
+.ground {
+  width: 1440px;
+  position: absolute;
+  margin-top: -550px;
+}
+
+.container {
+  width: 768px;
+  background-color: black;
+}
+
+.buy {
+display: block;
+float: left;
+
+font-family: Bubbleboddy Neue Regular, sans-serif;
+color: white;
+display: inline-block;
+font-size: 28px;
+}
+
+.menu {
+  background-color: black;
+  width: 100%;
+}
+
+.menu ul {
+  position: relative;
+  font-size: 28px;
+  font-family: Bubbleboddy Neue Trial thin, sans-serif;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 @media (max-width: 1440px) {
   #sidebar {display: none;}
 }
