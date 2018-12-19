@@ -1,9 +1,9 @@
-@@font-face {
-  font-family: "Celestina";
+@font-face {
+  font-family: "Bubbleboddy Neue Regular";
 
-  src: url(.../fonts/Piñata - Celestina.otf) format("otf");
+  src: url(.../fonts/Piñata - BubbleboddyNeue-trial.ttf) format("otf");
 }
-@@font-face {
-  font-family: "Century Gothic";
-  src: url("../fonts/GOTHIC.ttf") format("ttf");
+@font-face {
+  font-family: "Bubbleboddy Neue Trial thin";
+  src: url("../fonts/BubbleboddyNeueThin-trial.ttf") format("ttf");
 }
